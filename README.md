@@ -64,7 +64,7 @@ db('foo-table').insert({ bar: 'baz' }) // resolves to an **array** containing th
 db('foo-table').where('id', id).update({ bar: 'new bar' }) // resolves to the **number of records** affected by the update
 db('foo-table').where('id', id).delete() // resolves to the **number of records** affected by the delete
 ```
-
+ARB EDIT !
 #### Write Middleware
 
 - Write the following middlewares inside `api/accounts/accounts-middleware.js`:
